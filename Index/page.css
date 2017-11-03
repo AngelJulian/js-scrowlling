@@ -1,0 +1,61 @@
+body{
+    margin:0 auto;
+    font-size: 1em;
+}
+.wrapper{
+    background-color:red;
+    border:5px solid #42f2d2;
+    margin: 15px 15px;
+}
+header{
+    color: blueviolet;
+    font-family: calibri Body;
+}
+.table{
+    width:40%;
+}
+table, th, td{
+    border: 1px solid #222;
+    border-collapse: collapse;
+    opacity:0.95;
+    background-image: url(img_fjords_wide.jpg) float:right;
+}
+    
+}
+h4{
+    font-family:Tahoma,Calibri,Times New Roman;
+}
+span{
+    color:#a2c2f2;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+    th{
+        background-color: aqua;
+        color:#a70000;
+}
+.wrapper> div{
+    background-color:#aaaf10;
+    border:2px solid #000;
+    width: 80%;
+    float: left;
+    padding: 15px  15px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10 auto;
+}
+.form_item{
+}
+.form_col1{
+    float:left;
+    width:49%;
+    margin-right:2%;
+    clear:both;
+}
+.form_col2{
+    float:left;
+    width:49%;
+    margin:0;
+    

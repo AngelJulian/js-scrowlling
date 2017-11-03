@@ -13,7 +13,6 @@ body,html{
     background-color:#1aa3ff;
     padding:20px 40px;
     height:35px;
-    margin-top:0;
     margin-left:auto;
     margin-right:auto;
 }
@@ -50,14 +49,14 @@ h4{
     width: 300px;
     height: 300px;
     float:left;
-    margin-right: 30px;
+    margin-right: 40px;
     margin-left:40px;
     margin-top: 30px;
 }
 .box2{
     position: absolute;
     top:110px;
-    left: 400px;
+    left: 450px;
     border: 1px solid gainsboro;
     width: 300px;
     height: 300px;
