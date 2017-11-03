@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    border: 1px;
+    background-image: url(full2.png);
+    background-size: cover; 
+}
+.side-bar{
+    align-self: center;
+    padding: 10px;
+    width: 13%;
+    height: 100%;
+    background-color: forestgreen;
+    border: 2px solid blue;
+}
+.wrapper{
+    font-size: 20px;
+    width: 85%;
+    height: 100%;
+    margin-right: 0;
+    float: right;
+    padding:15px 15px;
+    border: 2px;
+}
+h2,h3,h4{
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+    font-style: italic;
+}
+ol,ul{
+    font-family:serif;
+    color: #a70000;
+}
+p{
+    color: #4d4;
+}

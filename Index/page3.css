@@ -1,0 +1,77 @@
+body{
+    margin:0 auto;
+    font-size: 1em;
+    background-image: url(img_nature_wide.jpg);
+}
+.wrapper{
+    border:5px solid #42f2d2;
+    margin: 15px 15px;
+    height: 100%;
+    padding: 15px;
+}
+.table{
+    align-self: center;
+    width:60%;
+}
+table, th, td{
+    margin: 15px auto;
+    align-self: center;
+    border: 1px solid #222;
+    border-collapse: collapse;
+    color: blue;
+    font-weight: 100;
+    opacity: 0.65;
+}
+h4{
+    font-family:Tahoma,Calibri,Times New Roman;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: #fff;
+    font-weight: 100;
+}
+tr:nth-child(even){
+    background-color:#999;
+}
+tr:nth-child(odd){
+    background-color:orange;
+}
+    th{
+        background-color:#a70000;
+        color:coral;
+}
+#header{
+    color: #222;
+    background-color: blue;
+}
+.wrapper> div{
+    float: left;
+    background-color: #427282;
+    padding: 15px  15px 20px 15px;
+    color: #fff;
+    border-radius: 10px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+.form_item{
+    margin-bottom:5px auto;
+    float:left;
+}
+.form_cola;{
+    float:left;
+    width:49%;
+    margin-right:2%;
+    clear:both;
+    display: block;
+}
+.form_colb{
+    float:left;
+    width:49%;
+    margin:auto;
+    display: block;
+}
