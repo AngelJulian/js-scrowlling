@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f2f2f2;
+	font-family: monospace;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.page-box{
+	font-family:verdana;
+	width: 750px;
+	height:550px;
+	background-color: #fff;
+	position: absolute;
+	top:100px;
+	bottom: 200px;
+	border-radius: 15px;
+	box-shadow: 0 0 0 0.2px #b3b3b3;
+}
+.left-box{
+	width: 50%;
+	height: 650px;
+	margin-left: 20px;
+	margin-top: 10px;
+	
+}
+.right-box{
+	width: 50%;
+	height: 650px;
+}
+.header{
+	display: inline-block;
+	padding-bottom: 30px;
+}
+h2{
+	font-size: 28px;
+	font-weight: 100;
+	letter-spacing:2px;
+	align-self: center;
+	margin-left: 50px;
+	margin-top: 30px ;
+	color:#ff6666;
+	
+}
+.small{
+	font-family:pacifico;
+	font-size:17px;
+	color: #ff8080;
+}
+table{
+	margin-left: 50px;
+	width:300px;
+	height: 300px;
+}
+.head{
+	font-family:monospace;
+	letter-spacing:2.5px;
+	font-weight:300;
+	font-size: 11px;
+	text-align: center;
+	margin:-5px 2px 10px 5px;
+	color:#bfbfbf;
+	width: 35px;
+	line-height:10px;
+}
+.heada{
+	line-height: 10px;
+	display:inline-block;
+	margin-bottom:5px;
+}
+td{
+	font-family:pacifico;
+	color: #660000;
+	text-align:center;
+	width: 35px;
+}
+.norm{
+	font-weight:lighter;
+	color: #e6e6e6;
+}
+a{
+	color:#800000;
+	text-decoration:none; 
+}
+hr{
+	padding-top:0;
+	height: 0;
+	margin-top: 60px 30px -60px -15px;
+	text-align:center;
+	border: 0.5px solid #ff8080;
+}
+.a{
+	margin-bottom:5px;
+	line-height: 8px;
+	padding-bottom:0;
+	font-weight:100;
+	color: #660000;
+	font-size: 15px;
+}
+.dot1{
+	position:absolute;
+	top:185px;
+	left:344px;
+	color:#ff8080;
+}
+.dot2{
+	position:absolute;
+	top:235px;
+	left: 173px;
+	color: #ff8080;
+}
+.dot3{
+	position:absolute;
+	top:335px;
+	color: #ff8080;
+}
+.time{
+	text-align: left;
+	font-size: 26px;
+	color: #ff8080;
+	margin-left: 60px;
+	margin-top: 60px;
+	font-weight: 100;
+	font-family:pacifico; 
+}
+.img{
+	position: absolute;
+	left: 400px;
+	top:100px;
+}
+.deg{
+	position:absolute;
+	left: 600px;
+	top:460px;
+	font-size: 20px;
+	color: #ff8080;
+}
+.line hr{
+	width:25px;
+	position: absolute;
+	top:20px;
+	left:-30px;
+	height: 1px;
+	font-size: 26px;
+	font-family: monospace;
+
+}
+.celc{
+	font-size: 26px;
+	font-weight: 100;
+}
+sup{
+	font-size:18px;
+}
+	
