@@ -1,0 +1,78 @@
+html body {
+  padding: 0px;
+  margin: 0px; }
+
+.navbar {
+  background-color: #4267b2;
+  padding: 10px 10%; }
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: 800;
+  color: #fff;
+  width: 50%; }
+
+.btn-small {
+  background-color: #6666ff;
+  color: #fff;
+  font-size: 10px;
+  padding: 0 5px 0 5px;
+  position: absolute;
+  top: 50px; }
+
+#pwd, .pwd, .usr {
+  padding: 0;
+  border-radius: 0; }
+
+.pwd {
+  color: #fff; }
+
+#usr {
+  padding: 0;
+  border-radius: 0; }
+
+.usr {
+  color: #fff; }
+
+.small {
+  color: #fff; }
+
+.container-fluid {
+  background-color: #edf0f5;
+  font-family: Helvetica;
+  padding: 0 10%; }
+
+h4, h3 {
+  font-weight: 700;
+  padding-bottom: 5%;
+  padding-top: 5%; }
+
+b {
+  font-size: 13px; }
+
+h3 {
+  padding-top: 0; }
+
+.smtwo {
+  font-size: 12px; }
+
+#fname, #lname {
+  width: 45%; }
+
+#email, #password {
+  width: 93%; }
+
+#sel1 {
+  padding: 0;
+  border-radius: 0;
+  box-shadow: 3px 1px 5px black; }
+
+p {
+  font-size: 14px; }
+
+.btn-success {
+  box-shadow: 1px 1px #a4e388;
+  border: 1px solid #3b6e22; }
+
+/*# sourceMappingURL=mypage.css.map */
