@@ -1,0 +1,73 @@
+$primary-color:#c7b7a7;
+$dark-color:#222;
+$main-color:#fff;
+$panel-color:grey;
+$margin:auto;
+$base-size:100%;
+$base-weight:700;
+$main-border:4px;
+
+html{
+	body{
+		margin: 0px;
+		padding: 0px;
+		background-color: $dark-color;
+	}
+}
+.jumbotron{
+	margin-left: $margin;
+	margin-right: $margin;
+	font-size: 14px;
+	background-color: $primary-color;
+	width:$base-size - 50%;
+	margin-top: 10%;
+	padding:3% 7%;
+}
+header{
+	background-color: $main-color;
+	width: $base-size;
+	color: $panel-color;
+	border-radius:$main-border;
+	padding-left: 10px;
+	font-weight: $base-weight;
+	.img1{
+		margin-left: $base-size - 40%;
+		max-width: 35%;
+	}
+}
+img{
+	max-width: $base-size - 60%;
+}
+.panel-group{
+	font-family: monospace;
+	background-color: $main-color;
+	border-radius: $main-border;
+	margin-top: 20px;
+	button{
+		color: $panel-color;
+		text-align: left;
+		border: none;
+		font-size: 13px;
+		width: $base-size;
+		.btn-light{
+			background-color: transparent;
+		}
+		img{
+			float: right;
+		}
+		.btn-default{
+			border-radius: 0;
+		}
+	}
+}
+.panel-top::before{
+	content: " ";
+	height:0;
+    border: medium solid $main-color;
+    border-width: 0 10px 15px 10px;
+    border-color: transparent transparent $main-color transparent;
+    position: absolute;
+	margin-left: 3%;
+    width: 0;
+	margin-top:-0.9%;
+}

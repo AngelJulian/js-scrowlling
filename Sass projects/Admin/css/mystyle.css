@@ -1,0 +1,56 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #222; }
+
+.jumbotron {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  background-color: #c7b7a7;
+  width: 50%;
+  margin-top: 10%;
+  padding: 3% 7%; }
+
+header {
+  background-color: #fff;
+  width: 100%;
+  color: grey;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-weight: 700; }
+  header .img1 {
+    margin-left: 60%;
+    max-width: 35%; }
+
+img {
+  max-width: 40%; }
+
+.panel-group {
+  font-family: monospace;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: 20px; }
+  .panel-group button {
+    color: grey;
+    text-align: left;
+    border: none;
+    font-size: 13px;
+    width: 100%; }
+    .panel-group button .btn-light {
+      background-color: transparent; }
+    .panel-group button img {
+      float: right; }
+    .panel-group button .btn-default {
+      border-radius: 0; }
+
+.panel-top::before {
+  content: " ";
+  height: 0;
+  border: medium solid #fff;
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  margin-left: 3%;
+  width: 0;
+  margin-top: -0.9%; }
