@@ -1,0 +1,75 @@
+$main-color:#fff;
+$bg-color:#f2f6f7;
+$cyan:#4080ff;
+$form-color:#ff8566;
+$button-color:#ffc2b3;
+$dark-color:#3c4043;
+$grey:darkgray;
+$border: none;
+$weight:100;
+
+html{
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+}
+.header{
+	background-color: $bg-color;
+	padding-left: 10%;
+	height: 200px;
+}
+i{
+	color: $cyan;
+	padding-left: 5%;
+}
+.myform{
+	background-color: $form-color;
+	padding-top: 20px;
+	padding-bottom:20px;
+	.btn-light{
+		padding-left: 15%;
+		background-color: transparent;
+		color: $main-color;
+		border: $border;
+		font-size: 20px;
+	}
+	#usr{
+		background-color: $button-color;
+		font-size: 15px;
+		height: 50px;
+		border-radius:0;
+		border: $border;
+		color: $main-color;
+	}
+}
+.info{
+	background-color: $dark-color;
+	padding: 80px 0 50px 80px;
+}
+h4{
+	color: $main-color;
+	font-size: 15px;
+}
+a{
+	@extend h4;
+	font-size: 14px;
+	font-weight:$weight; 
+}
+.logo2{
+	float: right;
+}
+hr{
+	background-color:$grey; 
+}
+.footer{
+	color: $main-color;
+	font-size: 9px;
+	font-weight: 500;
+	margin-left: -30px;
+	.fa-copyright{
+		font-size:11px;
+		color: $main-color;
+	}
+}
+
