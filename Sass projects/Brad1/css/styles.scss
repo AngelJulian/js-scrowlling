@@ -1,0 +1,144 @@
+$accent-color:#9E9E9E;
+$text:#ffffff;
+$primary-color:crimson;
+$size:12px;
+$main-weight:600;
+$main-color:white-smoke;
+$standard-width:100%;
+$btn-color1:#b30000;
+$dark-color:#755766;
+$orange-color:#ff751a;
+$light-color:#ffb849;
+$my-margin:auto;
+$nav-height:50px;
+
+
+html{
+	body{
+		margin: 0;
+		padding: 0;
+	}
+}
+.jumbotron{
+	margin-left: $my-margin;
+	margin-right: $my-margin;
+	background-color: $accent-color;
+	width: 80%;
+	min-height: 500px;
+	border-radius: 0;
+}
+.navbar{
+	background-color: $text;
+	padding: 0;
+	height:$nav-height;
+	ul{
+		a{
+			.btn-danger{
+				background-color: $btn-color1;
+				border-radius: 0;
+				height:$nav-height;
+				margin-left: -10px;
+			}
+			.btn-light{
+				border-radius: 0;
+				height:$nav-height;
+				border: none;
+				font-size: $size;
+				background-color: $text;
+				color:$primary-color; 
+			}
+			.btn-dark{
+				@extend .btn-light;
+				color: $text;
+				background-color: $dark-color;
+			}
+		}
+	}
+}
+.navbar-toggler-icon{
+	background-color:black;
+}
+.logo{
+	height: 50px;
+	max-width: 100%;
+}	
+.btn-dark::after{
+	content: " ";
+	height: 0;
+	position:relative;
+	top: 42px;
+	width: 0;
+	z-index: 1;
+	left: -40%;
+	border: medium solid #fff;
+	border-width: 10px 10px 0 10px;
+	border-color: $dark-color transparent transparent transparent;
+}
+.main-body{
+	min-height: 300px;
+	padding: 30px;
+	background-color: $text;
+	.card{
+		height: 250px;
+		text-align: center;
+		border: none;
+	}
+	.card1{
+			border:7px solid #ff751a;
+	}
+}	
+.img1{
+	max-width: $standard-width;
+	height:236px;
+}
+h4{
+	margin-top: -120px;
+	color: $text;
+	text-decoration: overline;
+}
+.panel{
+	height: 45%;
+	.img2{
+		height:120px;
+		width: 100%;
+	}
+	.students{
+		padding-top: 30px;
+	}
+	.img3{
+		@extend .img2;
+		margin-top: 15px;
+	}
+	.charpel{
+		@extend .students;
+	}
+}
+.card3{
+	button{
+		border-radius: 0;
+		font-size: $size;
+		border: none;
+		height:$nav-height;
+	}
+}
+.btn-default{
+	background-color:$orange-color;
+	margin-bottom: 30px;
+	.orange{
+		color: $text;
+	}
+}
+.btn-small{
+	background-color: $btn-color1;
+	.maroon{
+		color: $text;
+	}
+}
+.btn-lg{
+	background-color: $light-color;
+	margin-top: 30px;
+	.yellow{
+		color: $text;
+	}
+}
+		
