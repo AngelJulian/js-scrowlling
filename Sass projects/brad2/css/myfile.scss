@@ -1,0 +1,166 @@
+$accent-color:#9E9E9E;
+$text:#ffffff;
+$primary-color:crimson;
+$size:14px;
+$main-weight:600;
+$standard-width:100%;
+$btn-color1:#b30000;
+$btn-color2:#705c66;
+$dark-color:#755766;
+$orange-color:#ff751a;
+$light-color:#ffb849;
+$my-margin:auto;
+$nav-height:50px;
+$font-stack:sans serif;
+
+
+html{
+	body{
+		margin: 0;
+		padding: 0;
+	}
+}
+.jumbotron{
+	margin-left: $my-margin;
+	margin-right: $my-margin;
+	background-color: $accent-color;
+	width: 80%;
+	min-height: 500px;
+	border-radius: 0;
+}
+.navbar{
+	background-color: $text;
+	padding: 0;
+	height:$nav-height;
+	ul{
+		a{
+			.btn-danger{
+				background-color: $btn-color1;
+				border-radius: 0;
+				height:$nav-height;
+				margin-left: -10px;
+			}
+			.btn-light{
+				border-radius: 0;
+				height:$nav-height;
+				border: none;
+				font-size: 12px;
+				background-color: $text;
+				color:$primary-color; 
+			}
+			.btn-dark{
+				border-radius: 0;
+				height:$nav-height;
+				border: none;
+				font-size: 12px;
+				color: $text;
+				background-color: $dark-color;
+			}
+		}
+	}
+}
+.navbar-toggler-icon{
+	background-color:black;
+}
+.logo{
+	height: 50px;
+	max-width: 100%;
+}	
+.btn-dark::after{
+	content: " ";
+	height: 0;
+	position:relative;
+	top: 42px;
+	width: 0;
+	z-index: 1;
+	left: -40%;
+	border: medium solid $dark-color;
+	border-width: 10px 10px 0 10px;
+	border-color: $dark-color transparent transparent transparent;
+}
+.main-body{
+	min-height: 300px;
+	padding: 30px;
+	background-color:whitesmoke;
+	.card{
+		text-align: center;
+		border: none;
+		background-color: transparent;
+	}
+}
+.btn-group{
+	height: 40px;
+}
+h2{
+	font-size: $size;
+	font-weight: 800;
+	font-family: sans-serif;
+}
+.btn-primary{
+	background-color: $btn-color2; 
+	border-radius: 0;
+	padding: 0;
+}
+h1{
+	font-size: $size;
+}
+.btn-light{
+	background-color: #d1c7cc;
+	color: $text;
+	width:80%;
+	
+}
+#light{
+	border-radius: 0;
+	padding: 0;
+	font-size: 11px;
+	text-align: left;
+}
+#primary{
+	@extend #light;
+	width: 80%;
+	.fa-hand-pointer-o{
+		float: right;
+	}
+}
+.btn-outline-danger{
+	border-radius: 0;
+	width: 50%;
+	font-size: 11px;
+	overflow: hidden;
+}
+.card2{
+	.sermon{
+	height: 340px;
+	}
+	h3{
+		margin-top: -170px;
+		text-decoration: overline;
+		color: $text;
+	}
+
+}
+.panel-top{
+	height: 150px;
+	background-color:$orange-color;
+	.fa-envelope{
+		color: $text;
+		margin-top: 60px;
+	}
+}
+#panel-left{
+	margin-top: 35px;
+	height: 150px;
+	background-color:$btn-color1;
+}
+.fa-pencil{
+	color: $text;
+	margin-top: 60px;
+}
+.fa-gift{
+	@extend .fa-pencil;
+}
+#panel-right{
+	@extend #panel-left;
+	background-color:$light-color;
+}

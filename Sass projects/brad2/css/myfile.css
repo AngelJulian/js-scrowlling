@@ -1,0 +1,128 @@
+html body {
+  margin: 0;
+  padding: 0; }
+
+.jumbotron {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #9E9E9E;
+  width: 80%;
+  min-height: 500px;
+  border-radius: 0; }
+
+.navbar {
+  background-color: #ffffff;
+  padding: 0;
+  height: 50px; }
+  .navbar ul a .btn-danger {
+    background-color: #b30000;
+    border-radius: 0;
+    height: 50px;
+    margin-left: -10px; }
+  .navbar ul a .btn-light {
+    border-radius: 0;
+    height: 50px;
+    border: none;
+    font-size: 12px;
+    background-color: #ffffff;
+    color: crimson; }
+  .navbar ul a .btn-dark {
+    border-radius: 0;
+    height: 50px;
+    border: none;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #755766; }
+
+.navbar-toggler-icon {
+  background-color: black; }
+
+.logo {
+  height: 50px;
+  max-width: 100%; }
+
+.btn-dark::after {
+  content: " ";
+  height: 0;
+  position: relative;
+  top: 42px;
+  width: 0;
+  z-index: 1;
+  left: -40%;
+  border: medium solid #755766;
+  border-width: 10px 10px 0 10px;
+  border-color: #755766 transparent transparent transparent; }
+
+.main-body {
+  min-height: 300px;
+  padding: 30px;
+  background-color: whitesmoke; }
+  .main-body .card {
+    text-align: center;
+    border: none;
+    background-color: transparent; }
+
+.btn-group {
+  height: 40px; }
+
+h2 {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: sans-serif; }
+
+.btn-primary {
+  background-color: #705c66;
+  border-radius: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 14px; }
+
+.btn-light {
+  background-color: #d1c7cc;
+  color: #ffffff;
+  width: 80%; }
+
+#light, #primary {
+  border-radius: 0;
+  padding: 0;
+  font-size: 11px;
+  text-align: left; }
+
+#primary {
+  width: 80%; }
+  #primary .fa-hand-pointer-o {
+    float: right; }
+
+.btn-outline-danger {
+  border-radius: 0;
+  width: 50%;
+  font-size: 11px;
+  overflow: hidden; }
+
+.card2 .sermon {
+  height: 340px; }
+
+.card2 h3 {
+  margin-top: -170px;
+  text-decoration: overline;
+  color: #ffffff; }
+
+.panel-top {
+  height: 150px;
+  background-color: #ff751a; }
+  .panel-top .fa-envelope {
+    color: #ffffff;
+    margin-top: 60px; }
+
+#panel-left, #panel-right {
+  margin-top: 35px;
+  height: 150px;
+  background-color: #b30000; }
+
+.fa-pencil, .fa-gift {
+  color: #ffffff;
+  margin-top: 60px; }
+
+#panel-right {
+  background-color: #ffb849; }
