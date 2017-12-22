@@ -1,0 +1,21 @@
+html body {
+  background-color: #222;
+  margin: 0p;
+  padding: 0px; }
+
+.container {
+  border: none;
+  padding-top: 30px;
+  width: 30%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.card {
+  margin: 0px;
+  padding: 0px; }
+
+img {
+  width: 100%; }
+
+/*# sourceMappingURL=myfile.css.map */
