@@ -1,0 +1,78 @@
+html body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #3F51B5; }
+
+.container {
+  background-color: #FFFFFF;
+  padding: 20px;
+  align-items: center; }
+
+.header {
+  color: #303F9F;
+  text-align: center; }
+
+.input-group-addon {
+  background-color: #303F9F;
+  color: #FFFFFF;
+  height: 40px; }
+
+#sel1 {
+  background-color: #303F9F;
+  color: #FFFFFF;
+  font-size: 11px; }
+
+.icon {
+  max-width: 30%; }
+
+#usr {
+  font-size: 11px;
+  font-weight: 700;
+  height: 40px; }
+
+.box {
+  transition: all ease-out .2s;
+  cursor: pointer; }
+
+.box:hover {
+  transform: scale(1.05) translateY(-10px) translateX(-10px); }
+
+.box1, .box2, .box3 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #303F9F;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  box-shadow: 5px 5px 5px 5px #BDBDBD; }
+
+.image {
+  max-width: 15%;
+  float: right; }
+
+.badge-pill {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-left: 10px;
+  background-color: #F57C00;
+  margin-left: -5%; }
+
+.box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #303F9F;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  box-shadow: 5px 5px 5px 5px #BDBDBD;
+  margin-top: 5%; }
+
+/*# sourceMappingURL=style.css.map */

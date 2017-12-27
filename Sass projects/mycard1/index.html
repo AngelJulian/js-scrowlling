@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>javascript1</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h3>Reports</h3>
+				<div class="row">
+					<div class="col-sm-2">
+						<select class="form-control" id="sel1">
+							<option>Display: ALL</option>
+							<option>title head</option>
+							<option>title head</option>
+							<option>title head</option>
+						</select>
+					</div>
+					<div class="col-sm-10">
+						<div class="input-group input-group">
+							<input type="text" class="form-control" id="usr" value="Search for specific report">
+							<span  onclick="addOn()" id="addon" class="input-group-addon">								
+								<img class="icon" src="images/onepad.png">Filter
+							</span>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div id= "demo"></div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="box box1" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="first-top">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Current Grade Status</span>
+						<img class="image" id="myImg" src="images/badge.png">
+						<p class="text"> &nbsp;&nbsp;This report shows student's status by<br> grade,"At-Risk", "Benchmark", "Above <br>Benchmark"</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box2" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="second-top">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Current Class Status</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text"> &nbsp;&nbsp;This report shows student's status by grade,"At-Risk", "Benchmark","Above <br> Benchmark"</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box3" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="third-top">
+						<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Student Progress Report</span>
+						<img class="image" id="myImg" src="images/badge.png">
+						<p class="text"> &nbsp;&nbsp;Mornitor and track an individual student's progress over the current semester for NLM Reading.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="box box4" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="first-middle">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Group Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text"> &nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box5" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="second-middle">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Group Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text"> &nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box6" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="third-middle">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">School Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text"> &nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="box box7" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="first-middle2">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">School Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text">&nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box8" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="second-middle2">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Student Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text">&nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box9" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="third-middle2">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Group Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text">&nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="box box10" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="first-bottom">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Student Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text">&nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box11" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="second-bottom">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">District Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text">&nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box12" onmouseout="this.style.backgroundColor = '#303F9F'">
+						<div class="third-bottom">
+							<span onclick="this.style.backgroundColor = 'green'" class="badge badge-pill badge-warning">Teacher Report Title</span>
+							<img class="image" id="myImg" src="images/badge.png">
+							<p class="text">&nbsp;&nbsp;All Grades Status Assessment: LDG, easyCBM Math Scope: District, School, Project Data Type: Benchmark,Outcome.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+	<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
