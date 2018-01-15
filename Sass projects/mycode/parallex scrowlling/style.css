@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+#image{
+    width: 100%;
+    height: 710px;
+    position: relative;
+    z-index: -1;
+}
+#content{
+    height: 750px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #4dbbac;
+    position: relative;
+    z-index: 1;
+}
+.container{
+    margin-left:30%;
+    margin-right: 30%;
+    max-width: 50%;
+}
+.title{
+    padding: 10px;
+    border: none;
+    background-color: whitesmoke;
+    border-bottom:2px solid #000000;
+    box-shadow: 0 0 0.1px 1px #ffffff;
+    border-radius: 0;
+}
+h1{
+    font-size: 24px;
+}
+.quickadd{
+    background-color: #ffff;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+#quickAdd{
+    border: 1px dotted blue;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 12px;
+}
+.quickaddForm{
+    background-color: #cccccc;
+    padding-left: 10px;
+    padding-top:10px;
+    display: none;
+}
+label{
+    float: left;
+    font-size: 12px;
+}
+.quickaddForm input{
+    margin-left: 30%;
+    max-width: 40%;
+    border: 2px dotted;
+    margin-bottom:5px;
+    border-radius: 6px;
+}
+textarea{
+    margin-left: 28%;
+    max-width: 40%;
+    margin-bottom:5px;
+    border: 2px dotted;
+    border-radius: 6px;
+}
+#city{
+    margin-left: 32%;  
+}
+#phone{
+    margin-left: 30%; 
+}
+#Add{
+    margin-bottom:5px;
+    border: 2px dotted;
+    border-radius: 6px;
+    margin-left: 35%; 
+}
+#Cancel{
+    border: 2px dotted;
+    border-radius: 6px;
+}
+.addbook{
+    font-size: 12px;
+    padding: 10px;
+    background-color: #cccccc;
+    border-bottom:2px solid #000000;
+    box-shadow: 0 0 0.1px 1px #ffffff;
+    border-radius: 0;
+    height: 30px;
+}
+.entry{
+    max-width: 650px;
+}
